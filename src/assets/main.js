@@ -1,11 +1,10 @@
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCTSbqSJJOUH782VpV1FWtlg&part=snippet%2Cid&order=date&maxResults=9';
-
 const content = null || document.getElementById('content');
-
+//468d9bd2bamsh8ccc799a5015bd9p1d5e92jsn3fab090cf730
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '468d9bd2bamsh8ccc799a5015bd9p1d5e92jsn3fab090cf730',
+		'X-RapidAPI-Key': `${key}`,
 		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
 	}
 };
